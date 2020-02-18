@@ -1,0 +1,5 @@
+import pandas
+
+df = pd.read_csv('https://archive.ics.uci.edu/ml/machine-learning-databases/00476/buddymove_holidayiq.csv')
+
+print(df.head())
